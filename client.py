@@ -41,7 +41,7 @@ async def main():
 
     try:
         math_response = await agent.ainvoke(
-            {"messages": [{"role": "user", "content": "what's (3 + 5) x 12?"}]}
+            {"messages": [{"role": "user", "content": "what's (3 + 9) x 12?"}]}
         )
         print("Math response:", math_response['messages'][-1].content)
     except Exception as e:
