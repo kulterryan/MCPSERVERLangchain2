@@ -16,7 +16,6 @@ async def main():
                     "command":"python",
                     "args":[os.path.abspath("mathserver.py")], ## Use absolute path
                     "transport":"stdio",
-                
                 },
                 "weather": {
                     "url": "http://localhost:8000/mcp",  # Ensure server is running here
